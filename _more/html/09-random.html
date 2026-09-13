@@ -130,9 +130,9 @@
     const B = baseCanvas(piCv);
     const r = B.box, ox = B.ox, oy = B.oy;
     const ctx = B.ctx;
-    // 圓弧
+    // 圓弧（圓心在左下角：正方形中 x,y≥0 的 1/4 圓）
     ctx.strokeStyle = '#0d9488'; ctx.lineWidth = 3;
-    ctx.beginPath(); ctx.arc(ox, oy, r, 0, Math.PI / 2); ctx.stroke();
+    ctx.beginPath(); ctx.arc(ox, oy + r, r, -Math.PI / 2, 0); ctx.stroke();
     // 點
     pi.pts.forEach(p => plotDart(ctx, 0, 0, 0, ox + p.x * r, oy + (1 - p.y) * r, p.inside));
     const est = pi.tx ? 4 * pi.inx / pi.tx : 0;
