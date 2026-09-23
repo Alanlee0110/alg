@@ -9,7 +9,7 @@ def fibonacci (n):
 
 # n = 10
 # n = 40
-n = 60
+# n = 60
 startTime = datetime.now()
 print(f'fibonacci({n})={fibonacci(n)}')
 endTime = datetime.now()
