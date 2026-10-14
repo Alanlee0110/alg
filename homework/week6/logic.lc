@@ -1,0 +1,26 @@
+# Lambda Calculus 布林邏輯 + 條件式範例
+# 執行: python lambda.py logic.lc
+
+# ---- Church 布林 ----
+TRUE   = \x.\y.x
+FALSE  = \x.\y.y
+
+# ---- 邏輯運算子 ----
+NOT    = \p.p FALSE TRUE
+AND    = \p.\q.p q p
+OR     = \p.\q.p p q
+XOR    = \p.\q.p (NOT q) q
+IF     = \p.\a.\b.p a b
+
+# ---- Church 數字 (給 IF 用的兩個分支) ----
+ONE    = \f.\x.f x
+TWO    = \f.\x.f (f x)
+
+# ---- 測試 ----
+NOT TRUE
+AND TRUE FALSE
+OR TRUE FALSE
+XOR TRUE FALSE
+XOR TRUE TRUE
+IF TRUE ONE TWO
+IF FALSE ONE TWO

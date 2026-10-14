@@ -1,0 +1,32 @@
+# Lambda Calculus 數學運算範例
+# 執行: python lambda.py math.lc
+
+# ---- Church 布林 ----
+TRUE   = \x.\y.x
+FALSE  = \x.\y.y
+
+# ---- Church 數字 ----
+ZERO   = \f.\x.x
+ONE    = \f.\x.f x
+TWO    = \f.\x.f (f x)
+THREE  = \f.\x.f (f (f x))
+FIVE   = \f.\x.f (f (f (f (f x))))
+
+# ---- 算術運算子 ----
+SUCC   = \n.\f.\x.f (n f x)
+PLUS   = \m.\n.\f.\x.m f (n f x)
+MULT   = \m.\n.\f.m (n f)
+POW    = \b.\e.e b
+PRED   = \n.\f.\x.n (\g.\h.h (g f)) (\u.x) (\u.u)
+SUB    = \m.\n.n PRED m
+ISZERO = \n.n (\x.FALSE) TRUE
+
+# ---- 測試 ----
+SUCC TWO
+PLUS TWO THREE
+MULT TWO THREE
+POW TWO THREE
+PRED THREE
+SUB FIVE TWO
+ISZERO ZERO
+ISZERO THREE
