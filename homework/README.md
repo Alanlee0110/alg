@@ -6,10 +6,10 @@
 -------|----------|------------------|------|--------------|----------|----------
 1 | 查表法 | 是 | 無 | 無 | [week1](week1/) | Claude
 2 | 複雜度 | 是 | 無 | 無 | [week2](week2/) | Claude
-3 | 列舉＋暴力 | 是 | 無 | 無 | [week3](week3/) | Gemini
-4 | 迭代法 | 是 | 無 | 無 | [week4](week4/) | Gemini
+3 | 列舉＋暴力 | 是 | 無 | 無 | [week3](week3/) | Claude
+4 | 迭代法 | 是 | 無 | 無 | [week4](week4/) | Claude
 5 | 遞迴，函數式編程 | 是 | 無 | 無 | [week5](week5/) | Claude
-6 | Lambda Calculus | 是 | 無 | 無 | [week6](week6/) | opencode
-7 | 動態規劃與文字算法 | 是 | 無 | 無 | [week7](week7/) | opencode、ChatGPT
-8 | 優化算法 | 是 | 無 | 無 | [week8](week8/) | Claude、opencode
+6 | Lambda Calculus | 是 | 無 | 無 | [week6](week6/) | Claude
+7 | 動態規劃與文字算法 | 是 | 無 | 無 | [week7](week7/) | Claude
+8 | 優化算法 | 是 | 無 | 無 | [week8](week8/) | Claude
 9 | 搜尋算法 | 是 | 無 | 無 | [week9](week9/) | Claude
