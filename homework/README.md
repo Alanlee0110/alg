@@ -1,0 +1,15 @@
+# 期中作業：每週檢驗表格
+
+資工三 111310539 李昕哲
+
+第幾週 | 習題內容 | 有上課且準時繳交 | 補交 | 附上請假證明 | 作業連結 | 使用的AI
+-------|----------|------------------|------|--------------|----------|----------
+1 | 查表法 | 是 | 無 | 無 | [week1](week1/) | Claude
+2 | 複雜度 | 是 | 無 | 無 | [week2](week2/) | Claude
+3 | 列舉＋暴力 | 是 | 無 | 無 | [week3](week3/) | Gemini
+4 | 迭代法 | 是 | 無 | 無 | [week4](week4/) | Gemini
+5 | 遞迴，函數式編程 | 是 | 無 | 無 | [week5](week5/) | Claude
+6 | Lambda Calculus | 是 | 無 | 無 | [week6](week6/) | opencode
+7 | 動態規劃與文字算法 | 是 | 無 | 無 | [week7](week7/) | opencode、ChatGPT
+8 | 優化算法 | 是 | 無 | 無 | [week8](week8/) | Claude、opencode
+9 | 搜尋算法 | 是 | 無 | 無 | [week9](week9/) | Claude
